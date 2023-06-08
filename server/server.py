@@ -27,6 +27,7 @@ def predict_home_price():
 
 if __name__ == '__main__':
     print("starting py flask server for home price prediction..")
-    app.run()
+    
+    app.run(debug=False,host='0.0.0.0')
 
 
